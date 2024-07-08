@@ -33,7 +33,7 @@ export default {
 	chat: {
     		link: 'https://discord.gg/dP57cMpVNv',
   	},
-	primaryHue: 266,
+	primaryHue: 207,
 	footer: {
 		text: (
 			<span>
