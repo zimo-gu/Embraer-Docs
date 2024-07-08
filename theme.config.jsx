@@ -17,9 +17,9 @@ export default {
 						target="_blank"
 						rel="noopener noreferrer"
 						className="nx-text-xs nx-font-medium nx-text-gray-500 hover:nx-text-gray-900 dark:nx-text-gray-400 dark:hover:nx-text-gray-100 contrast-more:nx-text-gray-800 contrast-more:dark:nx-text-gray-50"
-						href="https://app.rankgun.works/"
+						href="https://www.roblox.com/games/17000068488/Purchasing-Portal/"
 					>
-						Dashboard →
+						Purchasing Portal →
 					</a>
 				</div>
 			);
