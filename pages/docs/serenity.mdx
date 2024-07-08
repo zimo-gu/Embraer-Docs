@@ -7,28 +7,34 @@ import { Callout } from 'nextra/components'
 # Serenity Seats Setup
 
 <Callout type="error" emoji="️🚫">
-  Before you begin, make sure your plane model has a **Other Parts** folder and **Animations** folder.
+  Before you begin, make sure your plane model has a ``Other Parts`` folder and ``Animations`` folder.
 </Callout>
 
-To simplify your experience, we've developed a module full of functionalities, including methods for promoting, setting ranks, and demoting. View the example script down below to get started: 
+#### Step 1: Ungroup the SEAT Model
+1. Select the "SEAT" model in your workspace.
+2. Right-click on the "SEAT" model and choose the "Ungroup" option from the context menu.
+3. Confirm the ungrouping action if prompted. You should now see two separate parts: "DO NOT ANCHOR" and "ANCHOR".
 
-Feel free to contribute [here](https://github.com/Noah-Haf/RankGunRobloxModule) 💖. 
+#### Step 2: Organize the Parts
+1. In your aircraft project folder, locate the Animation folder and the OtherParts folder or model.
+2. Drag the "DO NOT ANCHOR" part and drop it into the Animation folder. Ensure it is properly placed within the folder structure.
+3. Similarly, drag the "ANCHOR" part and drop it into the OtherParts folder or model. Verify that it is correctly positioned.
 
-```lua
---[[
-Example of how somebody can use the RankGun module for simple actions.
+#### Step 3: Enable the Product
+1. Navigate to the EULA script within your project.
+2. Open the EULA script and locate the variable or setting named `EULA`.
+3. Change the value of the `EULA` variable to `TRUE`. This step is crucial as the product will not function unless the EULA value is set to TRUE.
 
-This script will promote the user, set their rank to the role ID "2", and then demote.
-]]--
+#### Step 4: Final Checks
+1. Save your project to ensure all changes are stored.
+2. Reload your workspace or project to make sure all parts are correctly organized and the EULA setting is applied.
 
-local module = require(15764237093)
+#### Step 5: Verify Setup
+1. Run a preliminary test to ensure that the "DO NOT ANCHOR" and "ANCHOR" parts are functioning as intended.
+2. Check for any error messages or misconfigurations and resolve them before proceeding.
 
-local myBot = module.Bot.new("UhKa56RKO7U0SzN5UbvVinWFYhIWlU", 1) --API KEY, WORKSPACE ID
+#### Step 6: Begin Using the Product
+1. With the setup complete, you can now start using the SEAT model in your aircraft project.
+2. Refer to the product manual or additional documentation for detailed usage instructions and features.
 
-myBot:promote(4668712033)
-myBot:setRank(4668712033,2)
-local demotion = myBot:demote(4668712033)
-
-print(demotion)
-print(demotion.status_code)
-```
+By following these detailed instructions, you should have successfully set up Serenity Seats. If you encounter any issues during the setup process, consult the troubleshooting section of the product documentation or reach out to the support team for assistance.
