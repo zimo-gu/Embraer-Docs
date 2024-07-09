@@ -20,7 +20,7 @@ export default async function OG(req: NextRequest) {
     const hasTitle = searchParams.has("title");
     const title = hasTitle
         ? searchParams.get("title")?.slice(0, 100)
-        : "RankGun Documentation";
+        : "Embraer Roblox Documentation";
 
     return new ImageResponse(
         (
@@ -71,7 +71,7 @@ export default async function OG(req: NextRequest) {
                             position: "absolute",
                             top: "81px",
                             left: 155
-                        }}>RankGun</span>
+                        }}>Embraer Roblox</span>
                 
                 
                 <p
