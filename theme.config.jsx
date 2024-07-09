@@ -52,20 +52,20 @@ export default {
 	
 				/>
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-				<meta property="og:title" content="RankGun Docs" />
+				<meta property="og:title" content="Embraer Roblox Docs" />
 				<meta
 					name="description"
-					content="Learn & Grow with the knowledge from RankGun"
+					content="Learn & Grow with the knowledge from Embraer Roblox"
 				/>
 				<meta
 					name="og:description"
-					content="Learn & Grow with the knowledge from RankGun"
+					content="Learn & Grow with the knowledge from Embraer Roblox"
 				/>
 				<meta name="msapplication-TileColor" content="#ffffff" />
 				<meta httpEquiv="Content-Language" content="en" />
 				<meta
 					name="og:title"
-					content={title ? title + " — RankGun" : "RankGun Docs"}
+					content={title ? title + " — Embraer Roblox" : "Embraer Rblx Docs"}
 				/>
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 				<meta name="twitter:card" content="summary_large_image" />
