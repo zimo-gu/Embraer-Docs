@@ -1,4 +1,6 @@
 {
   "setup": "Setup",
-  "rank-commands": "Testing"
+  "rank-commands": {
+    "display": "hidden"
+  }
 }
