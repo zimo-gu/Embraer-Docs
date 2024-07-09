@@ -70,7 +70,7 @@ export default {
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@Rank_Gun" />
-				<title>{title ? `${title} — RankGun` : "RankGun Docs"}</title>
+				<title>{title ? `${title} — Embraer Roblox` : "Embraer Rblx Docs"}</title>
 				<meta
 					name="og:image"
 					content={`/api/og?title=${encodeURIComponent(title)}`}
