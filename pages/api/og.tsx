@@ -43,7 +43,7 @@ export default async function OG(req: NextRequest) {
                 }}
             >
 
-                <img src="/public/images/embraerlogo.png" alt="ER Logo" width="60" height="60">
+                <img src="/public/images/embraerlogo.png" alt="ER Logo" width="60" height="60"></img>
                 <span style={{
                             fontSize: '45px',
                             letterSpacing: '-.01em',
