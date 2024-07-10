@@ -55,22 +55,22 @@ export default {
 				<meta property="og:title" content="Embraer Roblox Docs" />
 				<meta
 					name="description"
-					content="Learn & Grow with the knowledge from Embraer Roblox"
+					content="Flying Redefined."
 				/>
 				<meta
 					name="og:description"
-					content="Learn & Grow with the knowledge from Embraer Roblox"
+					content="Flying Redefined."
 				/>
 				<meta name="msapplication-TileColor" content="#ffffff" />
 				<meta httpEquiv="Content-Language" content="en" />
 				<meta
 					name="og:title"
-					content={title ? title + " — Embraer Roblox" : "Embraer Rblx Docs"}
+					content={title ? title + " — Embraer Roblox" : "Embraer Roblox Docs"}
 				/>
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@Rank_Gun" />
-				<title>{title ? `${title} — Embraer Roblox` : "Embraer Rblx Docs"}</title>
+				<title>{title ? `${title} — Embraer Roblox` : "Embraer Roblox Docs"}</title>
 				<meta
 					name="og:image"
 					content={`/api/og?title=${encodeURIComponent(title)}`}
