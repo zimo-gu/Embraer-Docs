@@ -20,7 +20,7 @@ export default async function OG(req: NextRequest) {
     const hasTitle = searchParams.has("title");
     const title = hasTitle
         ? searchParams.get("title")?.slice(0, 100)
-        : "Embraer Roblox Documentation";
+        : "RankGun Documentation";
 
     return new ImageResponse(
         (
@@ -43,7 +43,28 @@ export default async function OG(req: NextRequest) {
                 }}
             >
 
-                <img src="/public/images/embraerlogo.png" alt="ER Logo" width="60" height="60"></img>
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="60" height="60"
+                    viewBox="0 0 98 98"
+                    style={{ position: "absolute", top: 70, left: 80 }}
+                >
+                    <path
+                        d="m64.3,0h-30.74c-3.1,0-6.06,1.27-8.32,3.38L3.38,25.24c-2.26,2.26-3.38,5.22-3.38,8.32v30.88c0,3.1,1.27,6.06,3.38,8.32l21.86,21.86c2.26,2.26,5.22,3.38,8.32,3.38h30.88c3.1,0,6.06-1.27,8.32-3.38l21.86-21.86c2.26-2.26,3.38-5.22,3.38-8.32v-30.88c0-3.1-1.27-6.06-3.38-8.32L72.62,3.38c-2.12-2.12-5.22-3.38-8.32-3.38h0Z"
+                        fill="currentColor"
+                    />
+                    {/* <text
+                        transform="translate(132.5 75)"
+                        style={{
+                            fontSize: '50px',
+                            letterSpacing: '-.01em',
+                        }}
+                        fill="currentColor"
+                    >
+                        <tspan x="0" y="0">R</tspan>
+                        <tspan x="46.05" y="0">ankGun</tspan>
+                    </text> */}
+                </svg>
                 <span style={{
                             fontSize: '45px',
                             letterSpacing: '-.01em',
@@ -63,7 +84,7 @@ export default async function OG(req: NextRequest) {
                         letterSpacing: -1,
                     }}
                 >
-                    Flying Refined.
+                    Flying Redefined.
                 </p>
                 <h1
                     style={{
