@@ -84,7 +84,7 @@ export default async function OG(req: NextRequest) {
                         letterSpacing: -1,
                     }}
                 >
-                    Elevate your group to new heights
+                    Flying Refined.
                 </p>
                 <h1
                     style={{
